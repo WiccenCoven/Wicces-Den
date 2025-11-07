@@ -13691,3 +13691,13 @@ Entries:
   id: 1516
   time: '2025-11-07T00:11:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2562
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Holofans are now purchaseable from the Engivend, assorted food was
+        restored to hidden vendor inventories, and cursed instruments can be
+        acquired from the Autotune, with some hacking.
+  id: 1517
+  time: '2025-11-07T14:08:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2559
