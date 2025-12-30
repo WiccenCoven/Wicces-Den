@@ -15385,3 +15385,10 @@ Entries:
   id: 1706
   time: '2025-12-30T13:49:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2874
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Only Colonial Liason can delete public bounties now
+  id: 1707
+  time: '2025-12-30T16:57:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2881
