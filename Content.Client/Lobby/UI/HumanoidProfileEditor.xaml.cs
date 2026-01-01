@@ -1197,6 +1197,7 @@ namespace Content.Client.Lobby.UI
             UpdateHeightControls();
             UpdateWidthControls();
             UpdateAgeEdit();
+            UpdateCustomSpecieNameEdit();
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
@@ -1781,6 +1782,11 @@ namespace Content.Client.Lobby.UI
         private void UpdateAgeEdit()
         {
             AgeEdit.Text = Profile?.Age.ToString() ?? "";
+        }
+
+        private void UpdateCustomSpecieNameEdit()
+        {
+            CCustomSpecieNameEdit.Text = Profile?.Customspeciesname ?? "";
         }
 
         /// <summary>
