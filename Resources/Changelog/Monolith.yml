@@ -15508,3 +15508,10 @@ Entries:
   id: 1720
   time: '2026-01-01T14:31:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2908
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Added radar edge markers for mapping.
+  id: 1721
+  time: '2026-01-01T14:37:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2899
