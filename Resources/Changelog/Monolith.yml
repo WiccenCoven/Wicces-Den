@@ -15976,3 +15976,28 @@ Entries:
   id: 1771
   time: '2026-01-09T14:21:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2990
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Drone control consoles can now autolink docked drones by altclicking the
+        console.
+    - type: Add
+      message: Drone control consoles now have a max range.
+    - type: Add
+      message: >-
+        Drone control consoles now detect from their linked drones. You can use
+        them to scout.
+    - type: Tweak
+      message: Ship AI will now target gunnery consoles.
+    - type: Fix
+      message: >-
+        Outer reach ships converted to a piloted ship will now be targeted by
+        drones.
+    - type: Fix
+      message: >-
+        Crown (the shooting outer-drone) will no longer keep firing even without
+        power.
+  id: 1772
+  time: '2026-01-09T17:56:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2943
