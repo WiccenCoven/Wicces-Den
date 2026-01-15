@@ -16211,3 +16211,10 @@ Entries:
   id: 1793
   time: '2026-01-15T21:03:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2981
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: Sector alerts are now much more thematic.
+  id: 1794
+  time: '2026-01-15T23:13:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3028
