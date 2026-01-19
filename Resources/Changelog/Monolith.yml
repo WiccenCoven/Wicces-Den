@@ -16346,3 +16346,14 @@ Entries:
   id: 1809
   time: '2026-01-19T16:22:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3030
+- author: Onezero0
+  changes:
+    - type: Add
+      message: >-
+        Added uranium processing. Start by making a bulk centrifuge mini after
+        researching relevant tech in the universal faction tree.
+    - type: Tweak
+      message: Some advanced recipes now take depleted and fissile uranium to make
+  id: 1810
+  time: '2026-01-19T16:55:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2905
