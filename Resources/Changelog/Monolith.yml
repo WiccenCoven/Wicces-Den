@@ -16389,3 +16389,10 @@ Entries:
   id: 1814
   time: '2026-01-19T18:26:22.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3062
+- author: Avalon-Proto
+  changes:
+    - type: Add
+      message: Adds 2 new Pre-fracture weapons for mappers
+  id: 1815
+  time: '2026-01-19T18:27:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2972
