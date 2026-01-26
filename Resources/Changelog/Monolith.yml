@@ -16656,3 +16656,10 @@ Entries:
   id: 1844
   time: '2026-01-26T15:41:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3097
+- author: KeiKiyomi
+  changes:
+    - type: Tweak
+      message: Changed CentComm CBURN gear
+  id: 1845
+  time: '2026-01-26T15:53:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3122
