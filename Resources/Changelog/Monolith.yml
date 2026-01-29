@@ -16716,3 +16716,12 @@ Entries:
   id: 1850
   time: '2026-01-29T12:29:53.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2806
+- author: Helicaste
+  changes:
+    - type: Tweak
+      message: >-
+        Pulse Rifle damage types tweaked. Now also does some structural damage.
+        (Buff) (Huge)
+  id: 1851
+  time: '2026-01-29T12:32:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3114
