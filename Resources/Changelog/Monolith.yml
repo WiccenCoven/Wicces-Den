@@ -16707,3 +16707,12 @@ Entries:
   id: 1849
   time: '2026-01-28T20:21:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3130
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: >-
+        Now all mechs receive speed penalty on low charge (<=5%). Penalty is
+        0.65 by default, 0.5 for gygax, 0.4 for sabre and 0.85 for other S2/S4.
+  id: 1850
+  time: '2026-01-29T12:29:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2806
