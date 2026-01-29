@@ -16743,3 +16743,12 @@ Entries:
   id: 1853
   time: '2026-01-29T12:51:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3135
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Lathes now drop material on destruction.
+    - type: Tweak
+      message: Materials (except glass) are no longer destructible.
+  id: 1854
+  time: '2026-01-29T12:58:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3131
