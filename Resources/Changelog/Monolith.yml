@@ -16915,3 +16915,10 @@ Entries:
   id: 1872
   time: '2026-02-01T19:39:39.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3134
+- author: Corrupt142
+  changes:
+    - type: Add
+      message: 'Added new ship to the CC shipyard: Tanuki'
+  id: 1873
+  time: '2026-02-01T19:41:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3063
