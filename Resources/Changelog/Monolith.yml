@@ -16852,3 +16852,13 @@ Entries:
   id: 1864
   time: '2026-02-01T18:46:33.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3129
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Vendors now lock up randomly (70% of the time) when hacked instead of on
+        the third item and now unlock in 12 minutes instead of replenishing one
+        freebie per 30 minutes.
+  id: 1865
+  time: '2026-02-01T18:47:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3133
