@@ -16947,3 +16947,13 @@ Entries:
   id: 1876
   time: '2026-02-02T13:27:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2988
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        Adds idle chat bubbles that let you know when somebody has paused
+        typing. System written by Morb0. Port by Izk228. Hydrakin bubbles by
+        zethine_07.
+  id: 1877
+  time: '2026-02-03T07:36:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3158
