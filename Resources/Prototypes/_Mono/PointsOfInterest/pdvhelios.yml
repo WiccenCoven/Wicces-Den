@@ -5,19 +5,19 @@
 # Maintainer Info
 # GitHub: ???
 # Discord: ???
-- type: pointOfInterest
-  id: HeliosFortress
-  parent: [BasePOI, BaseRepairablePOI]
-  name: 'PDV Helios Fortress'
-  minimumDistance: 7500
-  maximumDistance: 9500
-  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
-  spawnGroup: Required
-  gridPath: /Maps/_Mono/POI/pdvhelios.yml
-  addComponents:
-  - type: IFF
-    color: "#DE9E59"
-    readOnly: true # mono
+#- type: pointOfInterest # Wicce: Disabled.
+#  id: HeliosFortress
+#  parent: [BasePOI, BaseRepairablePOI]
+#  name: 'PDV Helios Fortress'
+#  minimumDistance: 7500
+#  maximumDistance: 9500
+#  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
+#  spawnGroup: Required
+#  gridPath: /Maps/_Mono/POI/pdvhelios.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#DE9E59"
+#    readOnly: true # mono
 
 - type: gameMap
   id: HeliosFortress

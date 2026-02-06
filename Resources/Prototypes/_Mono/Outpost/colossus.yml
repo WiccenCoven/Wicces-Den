@@ -1,7 +1,7 @@
 - type: gameMap
   id: Frontier
-  mapName: 'Colossus Central'
-  mapPath: /Maps/_Mono/Outpost/colossus_central.yml # Mono
+  mapName: 'Orbit'
+  mapPath: /Maps/_WD/Outpost/arion.yml # Mono -> Wicce
   minPlayers: 0
   maxPlayers: 100
   randomRotation: false
@@ -13,10 +13,10 @@
       - type: VesselMusic
         ambientMusicPrototype: ColossusCentralMusic
       - type: VesselInfo
-        description: "The closest thing to civilisation in this sector. You almost feel safe."
+        description: "The family of this ship swore fealty to the Crown many, many generations ago." # Wicce
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Colossus Central'
+          mapNameTemplate: 'DTU "Arion"'
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'

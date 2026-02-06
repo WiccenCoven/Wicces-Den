@@ -8,20 +8,20 @@
 
 # Notes: Wow.
 #
-- type: pointOfInterest
-  id: Jupiter
-  parent: [BaseMobilePOI, BaseRepairablePOI]
-  name: 'PDV Jupiter Class Carrier'
-  minimumDistance: 17000
-  maximumDistance: 19000
-  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
-  spawnGroup: Required
-  gridPath: /Maps/_Mono/POI/jupiter.yml
-  addComponents:
-  - type: IFF
-    color: "#d1bf58"
-    flags: [HideLabel]
-    readOnly: false
+#- type: pointOfInterest # Wicce: Disabled.
+#  id: Jupiter
+#  parent: [BaseMobilePOI, BaseRepairablePOI]
+#  name: 'PDV Jupiter Class Carrier'
+#  minimumDistance: 17000
+#  maximumDistance: 19000
+#  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
+#  spawnGroup: Required
+#  gridPath: /Maps/_Mono/POI/jupiter.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#d1bf58"
+#    flags: [HideLabel]
+#    readOnly: false
 
 - type: gameMap
   id: Jupiter
