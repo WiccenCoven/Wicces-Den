@@ -6,20 +6,20 @@
 # GitHub: starch70 # By the way, why did that previous guy set the maint info to his own name?
 # Discord: _starch_ # By the way, why did that previous guy set the maint info to his own name?
 
-# Notes:
+# Notes: # Wicce: Disabled.
 #
-- type: pointOfInterest
-  id: USSPCamelot
-  parent: [BasePOI, BaseRepairablePOI]
-  name: 'Camelot Station'
-  minimumDistance: 10650
-  maximumDistance: 12400
-  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
-  spawnGroup: Required
-  gridPath: /Maps/_Mono/POI/camelot.yml
-  addComponents:
-  - type: IFF
-    color: "#ccaa55"
+#- type: pointOfInterest
+#  id: USSPCamelot
+#  parent: [BasePOI, BaseRepairablePOI]
+#  name: 'Camelot Station'
+#  minimumDistance: 10650
+#  maximumDistance: 12400
+#  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
+#  spawnGroup: Required
+#  gridPath: /Maps/_Mono/POI/camelot.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#ccaa55"
 
 - type: gameMap
   id: USSPCamelot

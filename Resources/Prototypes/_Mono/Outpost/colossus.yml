@@ -13,10 +13,10 @@
       - type: VesselMusic
         ambientMusicPrototype: ColossusCentralMusic
       - type: VesselInfo
-        description: "Dust covered maintenance tiles to a sterile hallway with ancient corporate logos. The family of this ship swore fealty to the Crown many, many generations ago." # Wicce
+        description: "The family of this ship swore fealty to the Crown many, many generations ago." # Wicce
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Colossus Central'
+          mapNameTemplate: 'DTU "Arion"'
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'

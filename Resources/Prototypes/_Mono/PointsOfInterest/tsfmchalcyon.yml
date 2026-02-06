@@ -8,23 +8,23 @@
 # I'm not a maintainer lmao, but rover is
 # so true fluffan
 
-# Notes: Wow.
+# Notes: Wow. # Wicce: Disabled.
 #
-- type: pointOfInterest
-  id: TSFMCHalcyon
-  parent: [BasePOI, BaseRepairablePOI]
-  name: 'TSFMC Flagship Halcyon'
-  minimumDistance: 2500 # Mono
-  maximumDistance: 4000 # Mono
-  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
-  spawnGroup: Required
-  gridPath: /Maps/_Mono/POI/tsfmchalcyon.yml
-  addComponents:
-  - type: IFF
-    color: "#047abd"
-    readOnly: true
-  - type: SolarPoweredGrid
-    doNotCull: true
+#- type: pointOfInterest
+#  id: TSFMCHalcyon
+#  parent: [BasePOI, BaseRepairablePOI]
+#  name: 'TSFMC Flagship Halcyon'
+#  minimumDistance: 2500 # Mono
+#  maximumDistance: 4000 # Mono
+#  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
+#  spawnGroup: Required
+#  gridPath: /Maps/_Mono/POI/tsfmchalcyon.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#047abd"
+#    readOnly: true
+#  - type: SolarPoweredGrid
+#    doNotCull: true
 
 - type: gameMap
   id: TSFMCHalcyon
