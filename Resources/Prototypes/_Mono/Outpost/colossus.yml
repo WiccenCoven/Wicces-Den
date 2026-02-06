@@ -35,7 +35,7 @@
             Mercenary: [ -1, -1 ]
             Borg: [ -1, -1 ]
             StationRepresentative: [ 1, 1 ]
-            StationTrafficController: [ 2, 2 ]
+            StationTrafficController: [ 1, 1 ] # Wicce [ 2, 2 ] -> [ 1, 1 ]
             SecurityGuard: [ 3, 3 ]
             CCServiceWorker: [ 2, 2 ]
             NFJanitor: [ 2, 2 ]
