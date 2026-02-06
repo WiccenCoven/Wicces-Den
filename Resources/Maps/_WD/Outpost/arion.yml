@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/06/2026 06:27:46
-  entityCount: 6208
+  time: 02/06/2026 08:04:52
+  entityCount: 6226
 maps:
 - 1
 grids:
@@ -216,8 +216,8 @@ entities:
       spreadQueues:
         Puddle: []
         Kudzu: []
-        MetalFoam: []
         Smoke: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -3924,7 +3924,7 @@ entities:
       pos: 25.5,-52.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4397.0796
+      secondsUntilStateChange: -5068.512
       state: Opening
     - type: DeviceLinkSource
       linkedPorts:
@@ -30524,6 +30524,13 @@ entities:
     - type: Transform
       pos: 12.997218,-79.26417
       parent: 2
+- proto: NFSpawnPointJanitor
+  entities:
+  - uid: 6225
+    components:
+    - type: Transform
+      pos: 1.5,-31.5
+      parent: 2
 - proto: NTDefaultCircuitBoard
   entities:
   - uid: 3284
@@ -32640,11 +32647,6 @@ entities:
       parent: 2
 - proto: ShieldGeneratorMedium
   entities:
-  - uid: 5868
-    components:
-    - type: Transform
-      pos: -11.5,-3.5
-      parent: 2
   - uid: 5871
     components:
     - type: Transform
@@ -33163,6 +33165,35 @@ entities:
     - type: Transform
       pos: 15.5,-44.5
       parent: 2
+- proto: SpawnPointBorg
+  entities:
+  - uid: 6216
+    components:
+    - type: Transform
+      pos: 3.5,-32.5
+      parent: 2
+  - uid: 6217
+    components:
+    - type: Transform
+      pos: 3.5,-31.5
+      parent: 2
+  - uid: 6218
+    components:
+    - type: Transform
+      pos: 3.5,-30.5
+      parent: 2
+  - uid: 6219
+    components:
+    - type: Transform
+      pos: 3.5,-29.5
+      parent: 2
+- proto: SpawnPointCCServiceWorker
+  entities:
+  - uid: 6224
+    components:
+    - type: Transform
+      pos: 1.5,-30.5
+      parent: 2
 - proto: SpawnPointContractor
   entities:
   - uid: 4386
@@ -33206,6 +33237,83 @@ entities:
     components:
     - type: Transform
       pos: 2.5,-32.5
+      parent: 2
+- proto: SpawnPointMailCarrier
+  entities:
+  - uid: 6226
+    components:
+    - type: Transform
+      pos: 1.5,-29.5
+      parent: 2
+- proto: SpawnPointMercenary
+  entities:
+  - uid: 6212
+    components:
+    - type: Transform
+      pos: 3.5,-32.5
+      parent: 2
+  - uid: 6213
+    components:
+    - type: Transform
+      pos: 3.5,-31.5
+      parent: 2
+  - uid: 6214
+    components:
+    - type: Transform
+      pos: 3.5,-30.5
+      parent: 2
+  - uid: 6215
+    components:
+    - type: Transform
+      pos: 3.5,-29.5
+      parent: 2
+- proto: SpawnPointPilot
+  entities:
+  - uid: 5868
+    components:
+    - type: Transform
+      pos: 3.5,-32.5
+      parent: 2
+  - uid: 6209
+    components:
+    - type: Transform
+      pos: 3.5,-31.5
+      parent: 2
+  - uid: 6210
+    components:
+    - type: Transform
+      pos: 3.5,-30.5
+      parent: 2
+  - uid: 6211
+    components:
+    - type: Transform
+      pos: 3.5,-29.5
+      parent: 2
+- proto: SpawnPointSecurityGuard
+  entities:
+  - uid: 6222
+    components:
+    - type: Transform
+      pos: -18.5,-1.5
+      parent: 2
+  - uid: 6223
+    components:
+    - type: Transform
+      pos: -18.5,-0.5
+      parent: 2
+- proto: SpawnPointStationRepresentative
+  entities:
+  - uid: 6220
+    components:
+    - type: Transform
+      pos: 9.5,-9.5
+      parent: 2
+- proto: SpawnPointStc
+  entities:
+  - uid: 6221
+    components:
+    - type: Transform
+      pos: -0.5,0.5
       parent: 2
 - proto: SS13Memorial
   entities:
@@ -41013,7 +41121,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -49541.91
+      secondsUntilStateChange: -50213.344
       state: Opening
     - type: Airlock
       autoClose: False
