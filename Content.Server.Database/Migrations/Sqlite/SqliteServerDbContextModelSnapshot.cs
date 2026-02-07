@@ -800,11 +800,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("company");
 
-                    b.Property<string>("Customspeciesname")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("customspeciesname");
-
                     b.Property<string>("EyeColor")
                         .IsRequired()
                         .HasColumnType("TEXT")
