@@ -78,14 +78,14 @@
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
   - MonoAISTCShuttleSpawnerSchedulerTier2
-  - MonoAsakimSTCShuttleSpawnerScheduler
+#  - MonoAsakimSTCShuttleSpawnerScheduler # Wicce: Named alien races are no bueno. Pending generification rework.
   - MonoMonolithicEventsScheduler
 
 - type: gamePreset
   id: MonoChimera
   name: mono-chimera-title
   description: mono-chimera-description
-  showInVote: true
+  showInVote: false # Wicce: true -> false | The mechanoid hive is supposed to be the real showstopper here.
   rules:
   - NFAdventure
   - BasicStationEventScheduler
@@ -101,7 +101,7 @@
   id: MonoMixed
   name: mono-mixed-title
   description: mono-mixed-description
-  showInVote: true
+  showInVote: false # Wicce: true -> false | The mechanoid hive is supposed to be the real showstopper here.
   rules:
   - NFAdventure
   - BasicStationEventScheduler
@@ -133,4 +133,3 @@
   - MonoAISTCShuttleSpawnerSchedulerApocalypse
   - MonoAsakimSTCShuttleSpawnerSchedulerApocalypse
   - MonoMonolithicEventsScheduler
-
