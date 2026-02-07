@@ -8,10 +8,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-  permissions:
-    pull-requests: write
-    issues: write
-
 jobs:
   add_label:
     runs-on: ubuntu-latest

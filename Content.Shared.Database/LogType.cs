@@ -490,7 +490,4 @@ public enum LogType
     /// Events relating to midi playback.
     /// </summary>
     Instrument = 103,
-    ObjectiveSummary = 422,
-//    #endregion DeltaV Values
-    Consent = 12489, // Floofstation - random high number to avoid conflict when upstream adds new log types
 }
