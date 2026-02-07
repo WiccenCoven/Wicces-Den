@@ -1,4 +1,3 @@
-using Content.Client.Consent.UI; // Floofstation
 using Content.Client.UserInterface.Systems.Actions;
 using Content.Client.UserInterface.Systems.Admin;
 using Content.Client.UserInterface.Systems.Bwoink;
@@ -27,7 +26,6 @@ public sealed class GameTopMenuBarUIController : UIController
     [Dependency] private readonly GuidebookUIController _guidebook = default!;
     [Dependency] private readonly EmotesUIController _emotes = default!;
     [Dependency] private readonly LanguageMenuUIController _language = default!;
-    [Dependency] private readonly ConsentUiController _consent = default!; // Floofstation
 
     private GameTopMenuBar? GameTopMenuBar => UIManager.GetActiveUIWidgetOrNull<GameTopMenuBar>();
 
@@ -52,7 +50,6 @@ public sealed class GameTopMenuBarUIController : UIController
         _sandbox.UnloadButton();
         _emotes.UnloadButton();
         _language.UnloadButton();
-        _consent.UnloadButton(); // Floofstation
     }
 
     public void LoadButtons()
@@ -67,6 +64,5 @@ public sealed class GameTopMenuBarUIController : UIController
         _sandbox.LoadButton();
         _emotes.LoadButton();
         _language.LoadButton();
-        _consent.LoadButton(); // Floofstation
     }
 }

@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 using Content.Server.Administration.Logs;
 using Content.Shared.Administration.Logs;
 using Content.Shared.CCVar;
-using Content.Shared.Consent; // Floofstation
-using Content.Shared.Construction.Prototypes;
 using Content.Shared.Database;
 using Content.Shared.Preferences;
 using Content.Shared.Ghost.Roles; // Frontier: ghost role whitelists
@@ -258,13 +256,6 @@ namespace Content.Server.Database
         IAsyncEnumerable<SharedAdminLog> GetAdminLogs(LogFilter? filter = null);
         IAsyncEnumerable<JsonDocument> GetAdminLogsJson(LogFilter? filter = null);
         Task<int> CountAdminLogs(int round);
-
-        #endregion
-
-        #region Consent Settings
-
-        Task SavePlayerConsentSettingsAsync(NetUserId userId, PlayerConsentSettings consentSettings);
-        Task<PlayerConsentSettings> GetPlayerConsentSettingsAsync(NetUserId userId);
 
         #endregion
 
@@ -1043,17 +1034,6 @@ namespace Content.Server.Database
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.MarkMessageAsSeen(id, dismissedToo));
         }
-        public Task SavePlayerConsentSettingsAsync(NetUserId userId, PlayerConsentSettings consentSettings) // Floofstation
-        {
-            DbWriteOpsMetric.Inc();
-            return RunDbCommand(() => _db.SavePlayerConsentSettingsAsync(userId, consentSettings));
-        }
-
-        public Task<PlayerConsentSettings> GetPlayerConsentSettingsAsync(NetUserId userId) // Floofstation
-        {
-            DbReadOpsMetric.Inc();
-            return RunDbCommand(() => _db.GetPlayerConsentSettingsAsync(userId));
-        }
 
         public Task AddJobWhitelist(Guid player, ProtoId<JobPrototype> job)
         {
@@ -1078,7 +1058,7 @@ namespace Content.Server.Database
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.RemoveJobWhitelist(player, job));
         }
-
+        
         // Frontier: ghost role DB ops
         public Task AddGhostRoleWhitelist(Guid player, ProtoId<GhostRolePrototype> ghostRole)
         {
