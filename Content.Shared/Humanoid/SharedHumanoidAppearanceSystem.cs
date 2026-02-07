@@ -106,7 +106,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     private void OnExamined(EntityUid uid, HumanoidAppearanceComponent component, ExaminedEvent args)
     {
         var identity = Identity.Entity(uid, EntityManager);
-        var species = GetSpeciesRepresentation(component.Species, component.CustomSpecieName).ToLower();
+        var species = GetSpeciesRepresentation(component.Species).ToLower();
         var age = GetAgeRepresentation(component.Species, component.Age);
 
         // WWDP EDIT
@@ -444,8 +444,6 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         RaiseLocalEvent(uid, new ProfileLoadFinishedEvent()); // Shitmed Change
-        humanoid.CustomSpecieName = profile.Customspeciesname;
-
         Dirty(uid, humanoid);
     }
 
@@ -519,11 +517,8 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     /// <summary>
     /// Takes ID of the species prototype, returns UI-friendly name of the species.
     /// </summary>
-    public string GetSpeciesRepresentation(string speciesId, string? customespeciename)
+    public string GetSpeciesRepresentation(string speciesId)
     {
-        if (!string.IsNullOrEmpty(customespeciename))
-            return Loc.GetString(customespeciename);
-
         if (_proto.TryIndex<SpeciesPrototype>(speciesId, out var species))
         {
             return Loc.GetString(species.Name);
